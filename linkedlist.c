@@ -116,7 +116,31 @@ int main(){
         printf("%d\n", current->value);
         counter++;
     }
+    /*
+    EXAMPLE OUTPUT: 
 
+    Address of Node-1: 0x556bf76532c0
+    Next Node: 0x556bf76532a0
+    6
+    Address of Node-2: 0x556bf76532a0
+    Next Node: 0x556bf7653300
+    10
+    Address of Node-3: 0x556bf7653300
+    Next Node: 0x556bf7653320
+    15
+    Address of Node-4: 0x556bf7653320
+    Next Node: 0x556bf7653340
+    20
+    Address of Node-5: 0x556bf7653340
+    Next Node: (nil)
+    25
+    
+    */
+
+
+
+
+    
     deallocate(&headNode);
 
     return 0;
